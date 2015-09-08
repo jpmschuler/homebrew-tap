@@ -9,7 +9,7 @@ class Pdf2latex < Formula
   depends_on "qpdf"
 
   def install
-    bin.install "pdf2latex"
+    bin.install "pdf2latex/pdf2latex"
   end
 
 end
